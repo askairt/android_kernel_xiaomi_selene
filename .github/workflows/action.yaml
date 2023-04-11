@@ -16,9 +16,8 @@ jobs:
       with:
         repository: lemniskett/AnyKernel3
         path: zipper
-
-    - name: Android kernel build
-      uses: lemniskett/android-kernel-actions@master
+    - name: Android Kernel Action
+      uses: lemniskett/android-kernel-actions@v1.0.0
       id: build
       env:
         NAME: Selene
